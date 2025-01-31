@@ -4,7 +4,7 @@ import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import { StreamData, streamText } from "ai";
 import { queryPineconeDatabase } from "@/lib/pinecone";
 
-const google_api_key = process.env.GOOGLE_API_KEY as string;
+const google_api_key = process.env.GOOGLE_GENERATIVE_AI_API_KEY as string;
 
 export const maxDuration = 60;
 
